@@ -1,15 +1,24 @@
-:root {
-	--mainColor: red;
-}
-
-$primary: green;
-
 body {
 	display: flex;
-	border-radius: 50%;
-	transform: translateX(10px);
-	background: var(--mainColor);	
-	h1 {
-		color: $primary;
-	}
+}
+
+.grid-item {
+	background: #2c3e50;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.nested-grid-item {
+	background: red;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.grid-one {
+	width: 100%;
+	lost-utility: clearfix;
+}
+
+.grid-one div {
+	lost-column: 1/3 2 15px;
 }
