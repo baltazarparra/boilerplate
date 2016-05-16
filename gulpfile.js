@@ -1,19 +1,25 @@
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
+var precss = require('precss');
+var cssnext = require('cssnext');
+var csswring = require('csswring');
 var lost = require('lost');
 
-gulp.task('styles', function() {
+gulp.task('css', function() {
 	var processors = [
+		precss,
+		cssnext,
+		csswring,
 		lost,
 		autoprefixer
 	];
 
-	return gulp.src('styles.css')
+	return gulp.src('assets/all.css')
 		.pipe(postcss(processors))
-		.pipe(gulp.dest('./dest'));
+		.pipe(gulp.dest('./css'));
 });
 
-gulp.task('watch:styles', function() {
-	gulp.watch('**/*.css', ['styles']);
+gulp.task('default', function() {
+	gulp.watch('assets/**/*.css', ['css']);
 });

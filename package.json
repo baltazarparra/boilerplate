@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
   "version": "0.0.1",
-  "description": "a simple boilerplate\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[F",
+  "description": "a simple boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +9,11 @@
   "author": "baltazarparra",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^6.3.6",    
+    "autoprefixer": "^6.3.6",
     "cssnext": "^1.8.4",
     "csswring": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
-    "gulp-sass": "^2.3.1",
     "lost": "^6.7.2",
     "precss": "^1.4.0"
   }

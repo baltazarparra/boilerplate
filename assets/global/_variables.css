@@ -1,0 +1,6 @@
+$font: 'Roboto Condensed', sans-serif;
+
+:root {
+  --mainColor: red;
+  --mainSize: 30px;
+}

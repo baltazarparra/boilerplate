@@ -1,0 +1,15 @@
+body {
+    
+    display: flex;
+
+    background: pink;
+    p {
+        color: red;
+        font-family: $font;
+    }
+}
+
+a {
+  color: var(--mainColor);
+  font-size: var(--mainSize);
+}
