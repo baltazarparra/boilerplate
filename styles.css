@@ -1,5 +1,5 @@
 body {
-	display: flex;
+
 }
 
 .grid-item {
@@ -8,17 +8,17 @@ body {
 	margin-bottom: 20px;
 }
 
-.nested-grid-item {
-	background: red;
-	height: 50px;
-	margin-bottom: 10px;
-}
-
 .grid-one {
 	width: 100%;
 	lost-utility: clearfix;
 }
 
-.grid-one div {
-	lost-column: 1/3 2 15px;
+.grid-item {
+	lost-column: 1/3;
+}
+
+.nested-grid-item {
+	background: red;
+	height: 50px;
+	margin-top: 10px;
 }
