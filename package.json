@@ -1,7 +1,7 @@
 {
-  "name": "rh-app",
-  "version": "1.0.0",
-  "description": "Aplicativo para estudo, poderia ser usado por um setor de RH para filtrar cúrriculos por tags",
+  "name": "boilerplate",
+  "version": "1.0.2",
+  "description": "Boilerplate",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint *.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baltazarparra/rh-app.git"
+    "url": "git+https://github.com/baltazarparra/boilerplate.git"
   },
   "author": "Baltazar Parra <baltazarparra> (https://baltazarparra.github.io/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/baltazarparra/rh-app/issues"
+    "url": "https://github.com/baltazarparra/boilerplate/issues"
   },
-  "homepage": "https://github.com/baltazarparra/rh-app#readme",
+  "homepage": "https://github.com/baltazarparra/boilerplate#readme",
   "devDependencies": {
     "browser-sync": "^2.18.5",
     "cssnano": "^3.10.0",
