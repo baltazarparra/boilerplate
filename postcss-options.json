@@ -1,5 +1,5 @@
 {
-"use": ["precss", "cssnext", "cssnano"],
+"use": ["precss", "cssnext", "lost", "cssnano"],
 "input": "style.css",
 "output": "style.min.css",
 "local-plugins": true
